@@ -1,5 +1,6 @@
 # YARF: Yet Another Raft Framework
 
+[![tests](https://github.com/Alviner/yarf/actions/workflows/tests.yaml/badge.svg)](https://github.com/Alviner/yarf/actions/workflows/tests.yaml)
 [![Pypi](https://img.shields.io/pypi/v/yarf?color=%2334D058&label=pypi%20package)](https://pypi.org/project/yarf)
 [![Coverage Status](https://coveralls.io/repos/github/Alviner/yarf/badge.svg?branch=main)](https://coveralls.io/github/Alviner/yarf?branch=main)
 
