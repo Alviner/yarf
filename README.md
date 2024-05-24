@@ -1,5 +1,8 @@
 # YARF: Yet Another Raft Framework
 
+[![Pypi](https://img.shields.io/pypi/v/yarf?color=%2334D058&label=pypi%20package)](https://pypi.org/project/yarf)
+[![Coverage Status](https://coveralls.io/repos/github/Alviner/yarf/badge.svg?branch=main)](https://coveralls.io/github/Alviner/yarf?branch=main)
+
 ## Requirements
 
 - [`poetry`](https://python-poetry.org/)
