@@ -60,6 +60,11 @@ jobs:
             tests
         env:
           FORCE_COLOR: 1
+      - run: poetry run coveralls --service=github
+        env:
+          COVERALLS_PARALLEL: "true"
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   finish:
     needs:
       - tests
