@@ -7,13 +7,13 @@ repos:
         language: system
         types: [python]
 
-      - id: raff
+      - id: ruff
         name: Format with ruff
         entry: poetry run ruff format
         language: system
         types: [python]
 
-      - id: raff-check
+      - id: ruff-check
         name: Check with ruff
         entry: poetry run ruff check
         language: system
