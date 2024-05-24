@@ -13,13 +13,13 @@ repos:
         language: system
         types: [ python ]
 
-      - id: raft
+      - id: raff
         name: Format with ruff
         entry: poetry run ruff format
         language: system
         types: [ python ]
 
-      - id: raft-check
+      - id: raff-check
         name: Check with ruff
         entry: poetry run ruff check
         language: system
